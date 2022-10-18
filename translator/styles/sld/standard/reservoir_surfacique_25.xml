@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>reservoir_surfacique_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer reservoir_surf_25</Name>
+            <IsDefault>false</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Réservoir d'eau ou château d'eau au sol.1</Name>
+          <Filter>
+				<PropertyIsEqualTo>
+				  <PropertyName>symbolisat</PropertyName>
+				  <Literal>Réservoir d'eau ou château d'eau au sol</Literal>
+				</PropertyIsEqualTo>
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Fill>
+              <CssParameter name="fill">#bfbfbf</CssParameter>
+            </Fill>
+			<Stroke>
+              <CssParameter name="stroke">#1C62A6</CssParameter>
+              <CssParameter name="stroke-width">3.25</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Réservoir industriel.1</Name>
+          <Filter>
+				<PropertyIsEqualTo>
+				  <PropertyName>symbolisat</PropertyName>
+				  <Literal>Réservoir industriel</Literal>
+				</PropertyIsEqualTo>
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#595959</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>

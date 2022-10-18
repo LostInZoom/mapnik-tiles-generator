@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>canalisation_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer canalisation_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Aqueduc au sol.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Aqueduc au sol</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0080FF</CssParameter>
+                            <CssParameter name="stroke-linejoin">round</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">5.0</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Hydrocarbures.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Hydrocarbures</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0c0c0c</CssParameter>
+                            <CssParameter name="stroke-linejoin">round</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">5.0</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Aqueduc en élévation.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Aqueduc en élévation</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0080FF</CssParameter>
+                            <CssParameter name="stroke-linejoin">round</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">5.0</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Aqueduc souterrain.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Aqueduc souterrain</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0080FF</CssParameter>
+                            <CssParameter name="stroke-dasharray">25 25</CssParameter>
+                            <CssParameter name="stroke-linejoin">round</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">5.0</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Aqueduc au sol.2</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Aqueduc au sol</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0080FF</CssParameter>
+                            <CssParameter name="stroke-dasharray">17.5 107.5</CssParameter>
+                            <CssParameter name="stroke-linejoin">miter</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">17.5</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Hydrocarbures.2</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Hydrocarbures</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0c0c0c</CssParameter>
+                            <CssParameter name="stroke-dasharray">17.5 107.5</CssParameter>
+                            <CssParameter name="stroke-linejoin">miter</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">17.5</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Aqueduc en élévation.2</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Aqueduc en élévation</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0080FF</CssParameter>
+                            <CssParameter name="stroke-dasharray">17.5 107.5</CssParameter>
+                            <CssParameter name="stroke-linejoin">miter</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">17.5</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Aqueduc souterrain.2</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Aqueduc souterrain</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0080FF</CssParameter>
+                            <CssParameter name="stroke-dasharray">0 3.75 17.5 128.75</CssParameter>
+                            <CssParameter name="stroke-linejoin">miter</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">17.5</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

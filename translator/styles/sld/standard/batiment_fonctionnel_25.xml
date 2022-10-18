@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>batiment_fonctionnel_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer batiment_fonctionnel_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Bâtiment commercial.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Bâtiment commercial</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#bfbfbf</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Bâtiment industriel.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Bâtiment industriel</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#bfbfbf</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Bâtiment sportif.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Bâtiment sportif</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#b9b6d6</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Bâtiment public.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Bâtiment public</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#b9b6d6</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Mairie.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Mairie</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#808080</CssParameter>
+                            <CssParameter name="stroke-width">3.5</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#c2172e</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Hangar.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Hangar</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#bfbfbf</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Hangar commercial.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Hangar commercial</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#bfbfbf</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Hangar industriel.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Hangar industriel</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#bfbfbf</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Hangar public.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Hangar public</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#b9b6d6</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Bâtiment remarquable.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Bâtiment remarquable</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#c3aa8e</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Bâtiment remarquable dense.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Bâtiment remarquable dense</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#c3aa8e</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Gare.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Gare</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#b9b6d6</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

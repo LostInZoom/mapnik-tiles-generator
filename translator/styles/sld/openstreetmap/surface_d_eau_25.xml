@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>surface_d_eau_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer surface_d_eau_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Surface d'eau.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Surface d'eau</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#B5D0D0</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#B5D0D0</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Surface d'eau temporaire.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Surface d'eau temporaire</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#B5D0D0</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#B5D0D0</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Bassin.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Bassin</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#B5D0D0</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#B5D0D0</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Zone marine.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Zone marine</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#B5D0D0</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#B5D0D0</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

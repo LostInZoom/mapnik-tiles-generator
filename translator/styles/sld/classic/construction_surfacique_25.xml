@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>construction_surfacique_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer construction_surfacique_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Dalle de protection.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Dalle de protection</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0c0c0c</CssParameter>
+                            <CssParameter name="stroke-width">2.5</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Ecluse surfacique.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Ecluse surfacique</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0080FF</CssParameter>
+                            <CssParameter name="stroke-width">2.5</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Escalier surfacique.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Escalier surfacique</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0c0c0c</CssParameter>
+                            <CssParameter name="stroke-width">2.5</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Barrage surfacique.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Barrage surfacique</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0c0c0c</CssParameter>
+                            <CssParameter name="stroke-width">2.5</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

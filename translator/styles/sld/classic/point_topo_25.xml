@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>point_topo_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer point_topo_25</Name>
+            <IsDefault>false</IsDefault>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Point topographique</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Point topographique</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+							<href>/symbols/scan_express_25/Pointcotpylne.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>9</Size>
+						<!-- 	<Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Point réseau</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Point réseau</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+							<href>/symbols/scan_express_25/Pointcotpylne.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>9</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<!--FeatureTypeStyle>
+				<Rule>
+					<Name>Bloc rocheux isolé</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Bloc rocheux isolé</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+							<href>/symbols/scan_express_25/Blocrocheux.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<Rotation>0</Rotation>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle-->
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>

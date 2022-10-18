@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>transport_par_cable_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer transport_par_cable_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Câble transporteur.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Câble transporteur</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0c0c0c</CssParameter>
+                            <CssParameter name="stroke-linejoin">miter</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">2.5</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Télécabine, téléphérique, téléski.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Télécabine, téléphérique, téléski</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0c0c0c</CssParameter>
+                            <CssParameter name="stroke-linejoin">miter</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">2.5</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Câble transporteur.2</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Câble transporteur</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#0c0c0c</CssParameter>
+                            <CssParameter name="stroke-dasharray">2.5 75</CssParameter>
+                            <CssParameter name="stroke-linejoin">miter</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">10.0</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>reservoir_ponctuel_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer reservoir_ponct_25</Name>
+            <IsDefault>false</IsDefault>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Château d'eau</Name>
+					<Filter>
+						<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>Château d'eau</Literal>
+						</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Chteaudeau.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Réservoir d'eau ponctuel</Name>
+					<Filter>
+						<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>Réservoir d'eau ponctuel</Literal>
+						</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Rservoir.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Réservoir industriel ponctuel</Name>
+					<Filter>
+						<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>Réservoir industriel ponctuel</Literal>
+						</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Rservoirmatprem.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Château d'eau géodésique</Name>
+					<Filter>
+						<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>Château d'eau géodésique</Literal>
+						</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/ClocherChtdeaugodsique.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Réservoir géodésique</Name>
+					<Filter>
+						<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>Réservoir géodésique</Literal>
+						</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Rservoirgodsique.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>

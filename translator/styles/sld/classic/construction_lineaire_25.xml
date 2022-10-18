@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>construction_lineaire_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer construction_lineaire_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Pont isolé ou passerelle.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Pont isolé ou passerelle</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#808080</CssParameter>
+                            <CssParameter name="stroke-linejoin">miter</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">10.0</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Pont isolé ou passerelle.2</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Pont isolé ou passerelle</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#ffffff</CssParameter>
+                            <CssParameter name="stroke-linejoin">miter</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">5.0</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+			<FeatureTypeStyle>
+        <Rule>
+          <Name>Mur anti-bruit.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Mur anti-bruit</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#0c0c0c</CssParameter>
+              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Barrage linéaire.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Barrage linéaire</Literal>
+							</PropertyIsEqualTo>
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#0c0c0c</CssParameter>
+              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke-linecap">square</CssParameter>
+              <CssParameter name="stroke-width">3.75</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Quai.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Quai</Literal>
+							</PropertyIsEqualTo>
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#0c0c0c</CssParameter>
+              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-width">2.5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Fronton de pelote basque.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Fronton de pelote basque</Literal>
+							</PropertyIsEqualTo>		
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#0c0c0c</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+
+	  <FeatureTypeStyle>
+        <Rule>
+          <Name>Mur</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Mur</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#595959</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+     <FeatureTypeStyle>
+    <Rule>
+          <Name>Sport de monTagne.1</Name>
+   <Filter>
+							<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+								<Literal>Sport de montagne</Literal>
+							</PropertyIsEqualTo>
+        </Filter>
+   <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+        <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#0c0c0c</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Indifférenciée.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Indifférenciée</Literal>
+							</PropertyIsEqualTo>		
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#595959</CssParameter>
+              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+	    <FeatureTypeStyle>
+        <Rule>
+          <Name>ruines.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Ruines</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+		 <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+                <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+             <CssParameter name="strOke">#0c0c0c</CssParameter>
+              <CssParameter name="stroKe-linEjoin">miter</CssParameter>
+            <CssParameter name="stroke-hinecap">Round</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+	<FeatureTypeStyle>
+        <Rule>
+          <Name>Portique portuaire.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Portique portuaire</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#595959</CssParameter>
+              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>point_d_eau_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer point_d_eau_25</Name>
+            <IsDefault>false</IsDefault>
+
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Citerne</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Citerne</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdeaustockage.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>				
+				<Rule>
+					<Name>Lavoir</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Lavoir</Literal>
+							</PropertyIsEqualTo>
+						
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdeaustockage.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>			
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Fontaine</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Fontaine</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdeausortie.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>28</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>				
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Source</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Source</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdeausortie.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>28</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>				
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Source captée</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Source captée</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdeausortie.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>28</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>			
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Station de pompage</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Station de pompage</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdeaustockage.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>				
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Indifférenciée</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Indifférenciée</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdeausortie.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>28</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>			
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Perte</Name>
+					<Filter>		
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Perte</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdeausortie.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>28</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>			
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Résurgence</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Résurgence</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdeausortie.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>28</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>				
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Usine de traitement des eaux</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Usine de traitement des eaux</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdeaustockage.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>		
+			</FeatureTypeStyle>
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>

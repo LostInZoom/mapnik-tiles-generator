@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>batiment_special_ponct_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer batiment_special_ponct_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Fort, blockhaus, casemate ponctuel</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Fort, blockhaus, casemate ponctuel</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>39.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+									<href>/symbols/scan_express_25/Casemate.svg</href>
+									<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Monument ponctuel</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Monument ponctuel</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>20.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+									<href>/symbols/scan_express_25/carrlimite.svg</href>
+									<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Silo ponctuel</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Silo ponctuel</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>30.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/Silo.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Tour, donjon, moulin ponctuel</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Tour, donjon, moulin ponctuel</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>28.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/btimentremarquable.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

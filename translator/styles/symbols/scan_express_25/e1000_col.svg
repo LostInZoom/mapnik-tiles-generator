@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_4"
+   x="0px"
+   y="0px"
+   width="1.2166781"
+   height="1.2166781"
+   viewBox="0 0 1.2166781 1.2166782"
+   enable-background="new 0 0 59.52 58.96"
+   xml:space="preserve"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="e1000_Sommet.svg"><metadata
+   id="metadata15"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview13"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="23.075703"
+   inkscape:cx="-0.062467805"
+   inkscape:cy="0.68534042"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_4" />
+<defs
+   id="defs3">
+	<polygon
+   id="SVGID_1_"
+   points="0,33.69 0,42.12 0,50.54 0,58.96 8.5,58.96 17.01,58.96 25.51,58.96 34.01,58.96 42.52,58.96 51.02,58.96 59.52,58.96 59.52,50.54 59.52,42.12 59.52,33.69 59.52,25.27 59.52,16.85 59.52,8.42 59.52,0 51.02,0 42.52,0 34.01,0 25.51,0 17.01,0 8.5,0 0,0 0,8.42 0,16.85 0,25.27 " />
+</defs>
+<clipPath
+   id="SVGID_2_">
+	<use
+   xlink:href="#SVGID_1_"
+   overflow="visible"
+   id="use7"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="59.52"
+   height="58.959999" />
+</clipPath>
+<g
+   id="clip"
+   clip-path="url(#SVGID_2_)"
+   transform="translate(-29.020063,-28.73326)">
+</g>
+
+<path
+   sodipodi:type="arc"
+   style="fill:#ff0000;fill-rule:evenodd;stroke:#0c0c0c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   id="path2987"
+   sodipodi:cx="1.3434044"
+   sodipodi:cy="1.1866094"
+   sodipodi:rx="0.1733425"
+   sodipodi:ry="0.30334938"
+   d="m 1.5167469,1.1866094 a 0.1733425,0.30334938 0 1 1 -0.346685,0 0.1733425,0.30334938 0 1 1 0.346685,0 z"
+   transform="matrix(1.1034489,0,0,0.63054222,-0.87403908,-0.13986825)" /></svg>

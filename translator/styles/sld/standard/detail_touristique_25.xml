@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>detail_touristique_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer detail_touristique_25</Name>
+            <IsDefault>false</IsDefault>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Aire de détente</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Aire de détente</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Airededtente.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>70</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Curiosité</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Curiosité</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Curiosit.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>83</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Edifice remarquable</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Edifice remarquable</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Curiosit.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>83</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Point information touristique</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Point information touristique</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdinfotouristique.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>111</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Camping</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Camping</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Campingtouristique.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>111</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Refuge gardé</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Refuge gardé</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Refugegard.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>75</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Refuge</Name>
+					<Filter>	
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Refuge</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Refugenongard.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>76</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Abri</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Abri</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Abri.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>76</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Village de vacances</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Village de vacances</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Villagedevacance.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>75</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Parking isolé</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Parking isolé</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Parking.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>70</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Auberge de jeunesse</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Auberge de jeunesse</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Aubergedejeunesse.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>75</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Gîte d'étape</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Gîte d'étape</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Refugegard.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>75</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Gîte équestre</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Gîte équestre</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Refugegard.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>75</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Menhir</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Menhir</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Menhir.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>57</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Dolmen</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Dolmen</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Dolmen.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>41</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Cromlech</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Cromlech</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Menhir.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>41</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Habitation troglodytique</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Habitation troglodytique</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Habittroglo.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>25</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Monument</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Monument</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/carrlimite.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>20</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>

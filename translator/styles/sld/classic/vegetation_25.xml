@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>vegetation_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer vegetation_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Bois.1</Name>
+                   <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Bois</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#D1FFBA</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#D1FFBA</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+		<FeatureTypeStyle>
+				<Rule>
+					<Name>Zone arboree.1</Name>
+					<Filter>
+							<PropertyIsEqualTo matchCase="true">
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Zone arborée</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Fill>
+							<CssParameter name="fill">#D1FFBA</CssParameter>
+						</Fill>
+						<Stroke>
+						  	<CssParameter name="stroke">#D1FFBA</CssParameter>
+						  <CssParameter name="stroke-width">1</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Lande ligneuse.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Lande ligneuse</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#EAFFBD</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#EAFFBD</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+			
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Vigne_verger.1</Name>
+					<Filter>
+							<Or>
+								<PropertyIsEqualTo matchCase="true">
+									<PropertyName>symbolisat</PropertyName>
+									<Literal>Vigne</Literal>
+								</PropertyIsEqualTo>
+								
+								<PropertyIsEqualTo matchCase="true">
+									<PropertyName>symbolisat</PropertyName>
+									<Literal>Verger</Literal>
+								</PropertyIsEqualTo>
+							</Or>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Fill>
+						<CssParameter name="fill">#D1FFBA</CssParameter>
+						</Fill>
+						<Stroke>
+						  	<CssParameter name="stroke">#D1FFBA</CssParameter>
+						  <CssParameter name="stroke-width">1</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Vigne_poncif.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Vigne</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <GraphicFill>
+								<Graphic>
+								    <opacity>1.0</opacity>
+								    <Size>250.0</Size>
+								    <Rotation>
+								        <Literal>0</Literal>
+								    </Rotation>
+								    <ExternalGraphic>
+								        <href>/symbols/scan_express_25/vigne.png</href>
+								        <Format>png</Format>
+								    </ExternalGraphic>
+								</Graphic>
+                            </GraphicFill>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Foret fermee de feuillus.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Forêt fermée de feuillus</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#D1FFBA</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Foret fermee de coniferes.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Forêt fermée de conifères</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#D1FFBA</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#D1FFBA</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Foret fermee mixte.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Forêt fermée mixte</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#D1FFBA</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#D1FFBA</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Peupleraie.1</Name>
+                    <Filter>
+                       <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Peupleraie</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#D1FFBA</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#D1FFBA</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Foret ouverte.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Forêt ouverte</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#E0FFD1</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#E0FFD1</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Haie.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Haie</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#D1FFBA</CssParameter>
+                            <CssParameter name="stroke-width">1.0</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#D1FFBA</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+			
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>humide.1</Name>
+					<Filter>
+							<Or>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Forêt ouverte humide</Literal>
+							</PropertyIsEqualTo>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Forêt fermée de feuillus humide</Literal>
+							</PropertyIsEqualTo>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Forêt ouverte humide</Literal>
+							</PropertyIsEqualTo>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Zone arborée humide</Literal>
+							</PropertyIsEqualTo>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Lande ligneuse humide</Literal>
+							</PropertyIsEqualTo>
+							</Or>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+					<Fill>
+					   <GraphicFill>
+						<Graphic>
+						 <ExternalGraphic>
+						  <href>/symbols/scan_express_25/Marais.png</href>
+						  <Format>png</Format>
+						  </ExternalGraphic>
+						<Size>80</Size>
+                           </Graphic>
+              </GraphicFill>
+            </Fill>
+          </PolygonSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+				<FeatureTypeStyle>
+				<Rule>
+					<Name>humide.1</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+									<Literal> humide</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					 <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Fill>
+              <CssParameter name="fill">#C7EDFF</CssParameter>
+            </Fill>
+				<Stroke>
+			  	<CssParameter name="stroke">#C7EDFF</CssParameter>
+			  <CssParameter name="stroke-width">1</CssParameter>
+			</Stroke>
+          </PolygonSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

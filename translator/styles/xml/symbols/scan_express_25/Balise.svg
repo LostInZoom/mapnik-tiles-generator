@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="4.25"
+   height="6.8210001"
+   viewBox="0 0 4.25 6.8210001"
+   xml:space="preserve"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="Balise.svg"><metadata
+   id="metadata3118"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs3116" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview3114"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="2.7534259"
+   inkscape:cx="0.29"
+   inkscape:cy="5.9154999"
+   inkscape:window-x="543"
+   inkscape:window-y="344"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g3094"
+   transform="translate(-48.19,-46.490001)">
+	<g
+   id="g3096">
+		<defs
+   id="defs3098">
+			<polyline
+   id="SVGID_1_"
+   points="0,0 0,8.62 0,17.23 0,25.85 0,34.47 0,43.09 0,51.699 0,60.32 0,68.939 0,77.561 0,86.17      0,94.791 8.8,94.791 17.61,94.791 26.41,94.791 35.21,94.791 44.01,94.791 52.82,94.791 61.62,94.791 70.42,94.791 79.23,94.791      88.03,94.791 96.83,94.791 96.83,86.17 96.83,77.561 96.83,68.939 96.83,60.32 96.83,51.699 96.83,43.09 96.83,34.47      96.83,25.85 96.83,17.23 96.83,8.62 96.83,0 88.03,0 79.23,0 70.42,0 61.62,0 52.82,0 44.01,0 35.21,0 26.41,0 17.61,0 8.8,0      0,0    " />
+		</defs>
+		<defs
+   id="defs3101">
+			<rect
+   id="SVGID_2_"
+   width="96.959999"
+   height="94.560997"
+   x="0"
+   y="0" />
+		</defs>
+		<clipPath
+   id="SVGID_3_">
+			<use
+   xlink:href="#SVGID_1_"
+   style="overflow:visible"
+   id="use3105"
+   x="0"
+   y="0"
+   width="96.959999"
+   height="94.791" />
+		</clipPath>
+		<clipPath
+   id="SVGID_4_">
+			<use
+   xlink:href="#SVGID_2_"
+   style="overflow:visible"
+   id="use3108"
+   x="0"
+   y="0"
+   width="96.959999"
+   height="94.791" />
+		</clipPath>
+		<path
+   d="M 52.44,53.311 52.4,53.02 52.29,52.741 52.101,52.462 51.861,52.212 51.3,46.62 51.25,46.53 51.15,46.49 h -1.56 l -0.09,0.04 -0.05,0.08 -0.68,5.579 v 0.01 l -0.24,0.262 -0.18,0.279 -0.12,0.279 -0.04,0.291 h 4.25 m -2.73,-6.54 h 1.32 l 0.17,1.69 -1.69,0.01 0.2,-1.7 m 1.55,2.351 0.271,2.59 -1.08,-1.471 0.809,-1.119 m 0.091,2.729 0.18,-0.129 0.02,0.25 -0.27,-0.15 -0.3,-0.121 -0.32,-0.068 -0.341,-0.032 -0.28,0.021 -0.26,0.049 -0.26,0.08 -0.23,0.109 1.03,-1.42 1.031,1.411 m -1.181,-1.61 -1.06,1.471 0.31,-2.512 0.75,1.041 m 0.99,-1.359 -0.85,1.17 -0.84,-1.15 1.69,-0.02 m -1.92,3 -0.16,0.09 0.02,-0.18 0.14,0.09 0,0 z"
+   id="path3110"
+   clip-path="url(#SVGID_4_)"
+   inkscape:connector-curvature="0" />
+		
+			<path
+   style="fill:none;stroke:#0c0c0c;stroke-width:0.01;stroke-linecap:round;stroke-miterlimit:10"
+   d="M 52.44,53.311 52.4,53.02 52.29,52.741 52.101,52.462 51.861,52.212 51.3,46.62 51.25,46.53 51.15,46.49 h -1.56 l -0.09,0.04 -0.05,0.08 -0.68,5.579 v 0.01 l -0.24,0.262 -0.18,0.279 -0.12,0.279 -0.04,0.291 h 4.25 m -2.73,-6.54 h 1.32 l 0.17,1.69 -1.69,0.01 0.2,-1.7 m 1.55,2.351 0.271,2.59 -1.08,-1.471 0.809,-1.119 m 0.091,2.729 0.18,-0.129 0.02,0.25 -0.27,-0.15 -0.3,-0.121 -0.32,-0.068 -0.341,-0.032 -0.28,0.021 -0.26,0.049 -0.26,0.08 -0.23,0.109 1.03,-1.42 1.031,1.411 m -1.181,-1.61 -1.06,1.471 0.31,-2.512 0.75,1.041 m 0.99,-1.359 -0.85,1.17 -0.84,-1.15 1.69,-0.02 m -1.92,3 -0.16,0.09 0.02,-0.18 0.14,0.09 0,0 z"
+   id="path3112"
+   clip-path="url(#SVGID_4_)"
+   inkscape:connector-curvature="0" />
+	</g>
+</g>
+</svg>

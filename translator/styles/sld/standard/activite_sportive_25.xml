@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>activite_sportive_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer activite_sportive_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Baignade surveillée</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Baignade surveillée</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>111.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/Baignade.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Centre équestre</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Centre équestre</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>111.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/Centrequestre.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Départ de ski de fond</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Départ de ski de fond</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>111.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/Skidefond.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Site d'escalade</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Site d'escalade</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>111.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/Siteescalade.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Site de vol libre</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Site de vol libre</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>111.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/Vollibre.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Sports en eaux vives</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Sports en eaux vives</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>111.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/Cano.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Sports nautiques</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Sports nautiques</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>111.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/Sportsnautiques.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Golf</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Golf</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>111.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/Golf.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Pelote basque</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Pelote basque</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Graphic>
+                            <opacity>1.0</opacity>
+                            <Size>70.0</Size>
+                            <Rotation>
+								<Literal>0</Literal>
+                            </Rotation>
+                            <ExternalGraphic>
+								<href>/symbols/scan_express_25/Pelotebasque.svg</href>
+								<Format>svg</Format>
+                            </ExternalGraphic>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="10.771"
+   height="10.809"
+   viewBox="-0.955 -0.784 10.771 10.809"
+   enable-background="new -0.955 -0.784 12 12"
+   xml:space="preserve"
+   id="svg3696"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="e100_station_balneaire.svg"><metadata
+   id="metadata3706"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview3704"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="24.25"
+   inkscape:cx="5.045"
+   inkscape:cy="5.593"
+   inkscape:window-x="349"
+   inkscape:window-y="403"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg3696" />
+<defs
+   id="defs3698">
+</defs>
+<rect
+   style="fill:#ffffff;stroke:#ffffff;stroke-width:0.95170045;stroke-opacity:1"
+   id="rect2984"
+   width="9.4020615"
+   height="7.0964704"
+   x="-0.19865955"
+   y="-0.09272936" /><rect
+   style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-opacity:1"
+   id="rect2996"
+   width="4.7422681"
+   height="1.814433"
+   x="1.0582969"
+   y="7.7633677"
+   transform="matrix(0.92338423,-0.38387701,0.38387701,0.92338423,0,0)"
+   inkscape:transform-center-x="0.70828221"
+   inkscape:transform-center-y="0.22582892" /><rect
+   style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-opacity:1"
+   id="rect2996-8"
+   width="4.7422681"
+   height="1.814433"
+   x="-7.2810669"
+   y="-5.9342093"
+   transform="matrix(-0.91136532,-0.41159841,0.41159841,-0.91136532,0,0)"
+   inkscape:transform-center-x="-4.3774963"
+   inkscape:transform-center-y="-0.10904665" /><path
+   d="M 9.391,-0.784 H -0.955 l 0.023,8.409 5.375,2.4 5.373,-2.171 V -0.784 H 9.391 z M 8.966,0.067 c 0,0.732 0,6.71 0,7.213 C 8.507,7.466 4.755,8.982 4.46,9.101 4.168,8.97 0.354,7.267 -0.083,7.072 -0.084,6.591 -0.101,0.799 -0.103,0.067 c 0.747,0 8.325,0 9.069,0 z"
+   id="path3700"
+   inkscape:connector-curvature="0"
+   style="fill:#646464" />
+<path
+   d="m 6.828,5.813 c 0,0 -0.705,0.277 -0.893,0.352 C 5.831,5.967 4.634,3.724 4.515,3.502 4.743,3.384 6.905,2.262 6.905,2.262 L 6.314,1.562 5.889,1.173 5.399,0.933 4.564,0.726 3.665,0.758 2.936,1.006 2.246,1.508 1.698,2.298 1.475,2.877 1.355,3.504 1.515,4.355 1.824,5.044 c 0,0 1.736,-1.002 1.958,-1.13 0.12,0.224 1.249,2.342 1.365,2.559 -0.117,0.062 -0.272,0.145 -0.272,0.145 0,0 -0.48,0.476 -0.629,0.625 C 4.087,7.087 3.426,6.435 3.426,6.435 L 2.292,6.157 0.766,6.263 0.719,6.535 4.291,8.101 8.543,6.166 6.828,5.813 z"
+   id="path3702"
+   inkscape:connector-curvature="0"
+   style="fill:#646464" />
+</svg>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="14.74"
+   height="14.74"
+   viewBox="0 0 14.74 14.74"
+   xml:space="preserve"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="Escavation.svg"><metadata
+   id="metadata3215"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs3213" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview3211"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="2.7534259"
+   inkscape:cx="5.9599999"
+   inkscape:cy="4.1945"
+   inkscape:window-x="306"
+   inkscape:window-y="229"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g3191"
+   transform="translate(-42.52,-36.850001)">
+	<g
+   id="g3193">
+		<defs
+   id="defs3195">
+			<polyline
+   id="SVGID_1_"
+   points="0,0 0,8.62 0,17.23 0,25.85 0,34.47 0,43.09 0,51.699 0,60.32 0,68.939 0,77.561 0,86.17      0,94.791 8.8,94.791 17.61,94.791 26.41,94.791 35.21,94.791 44.01,94.791 52.82,94.791 61.62,94.791 70.42,94.791 79.23,94.791      88.03,94.791 96.83,94.791 96.83,86.17 96.83,77.561 96.83,68.939 96.83,60.32 96.83,51.699 96.83,43.09 96.83,34.47      96.83,25.85 96.83,17.23 96.83,8.62 96.83,0 88.03,0 79.23,0 70.42,0 61.62,0 52.82,0 44.01,0 35.21,0 26.41,0 17.61,0 8.8,0      0,0    " />
+		</defs>
+		<defs
+   id="defs3198">
+			<rect
+   id="SVGID_2_"
+   width="96.959999"
+   height="94.560997"
+   x="0"
+   y="0" />
+		</defs>
+		<clipPath
+   id="SVGID_3_">
+			<use
+   xlink:href="#SVGID_1_"
+   style="overflow:visible"
+   id="use3202"
+   x="0"
+   y="0"
+   width="96.959999"
+   height="94.791" />
+		</clipPath>
+		<clipPath
+   id="SVGID_4_">
+			<use
+   xlink:href="#SVGID_2_"
+   style="overflow:visible"
+   id="use3205"
+   x="0"
+   y="0"
+   width="96.959999"
+   height="94.791" />
+		</clipPath>
+		<polygon
+   points="42.82,46.31 43.05,46.97 43.36,47.61 43.73,48.23 44.16,48.82 44.67,49.381 45.22,49.9 45.8,50.35 46.41,50.73 47.04,51.041 47.7,51.279 48.38,51.449 49.09,51.561 49.83,51.59 50.57,51.561 51.28,51.449 51.97,51.279 52.63,51.041 53.271,50.73 53.891,50.35 54.48,49.9 55.05,49.381 55.57,48.82 56.021,48.23 56.391,47.61 56.71,46.97 56.95,46.31 57.12,45.62 57.22,44.9 57.26,44.16 57.22,43.42 57.12,42.71 56.95,42.03 56.71,41.37 56.391,40.74 56.021,40.13 55.57,39.55 55.05,39 54.48,38.5 53.891,38.06 53.271,37.69 52.63,37.39 51.97,37.15 51.28,36.99 50.57,36.88 49.83,36.85 49.09,36.88 48.38,36.99 47.7,37.15 47.04,37.39 46.41,37.69 45.8,38.06 45.22,38.5 44.67,39 44.16,39.55 43.73,40.13 43.36,40.74 43.05,41.37 42.82,42.03 42.65,42.71 42.55,43.42 42.52,44.16 42.52,44.16 42.55,44.9 42.65,45.62 "
+   id="polygon3207"
+   clip-path="url(#SVGID_4_)" />
+		
+			<polygon
+   style="fill:none;stroke:#0c0c0c;stroke-width:0.01;stroke-linecap:round;stroke-miterlimit:10"
+   points="42.82,46.31 43.05,46.97 43.36,47.61 43.73,48.23 44.16,48.82 44.67,49.381 45.22,49.9 45.8,50.35 46.41,50.73 47.04,51.041 47.7,51.279 48.38,51.449 49.09,51.561 49.83,51.59 50.57,51.561 51.28,51.449 51.97,51.279 52.63,51.041 53.271,50.73 53.891,50.35 54.48,49.9 55.05,49.381 55.57,48.82 56.021,48.23 56.391,47.61 56.71,46.97 56.95,46.31 57.12,45.62 57.22,44.9 57.26,44.16 57.22,43.42 57.12,42.71 56.95,42.03 56.71,41.37 56.391,40.74 56.021,40.13 55.57,39.55 55.05,39 54.48,38.5 53.891,38.06 53.271,37.69 52.63,37.39 51.97,37.15 51.28,36.99 50.57,36.88 49.83,36.85 49.09,36.88 48.38,36.99 47.7,37.15 47.04,37.39 46.41,37.69 45.8,38.06 45.22,38.5 44.67,39 44.16,39.55 43.73,40.13 43.36,40.74 43.05,41.37 42.82,42.03 42.65,42.71 42.55,43.42 42.52,44.16 42.52,44.16 42.55,44.9 42.65,45.62 "
+   id="polygon3209"
+   clip-path="url(#SVGID_4_)" />
+	</g>
+</g>
+</svg>

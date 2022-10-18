@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>troncon_cours_d_eau_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer troncon_cours_d_eau_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Cours d'eau.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Cours d'eau</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#BED5E9</CssParameter>
+                            <CssParameter name="stroke-linejoin">round</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                            <CssParameter name="stroke-width">10.0</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Cours d'eau temporaire.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Cours d'eau temporaire</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#BED5E9</CssParameter>
+                            <CssParameter name="stroke-dasharray">50 10</CssParameter>
+                            <CssParameter name="stroke-linejoin">round</CssParameter>
+                            <CssParameter name="stroke-linecap">butt</CssParameter>
+                            <CssParameter name="stroke-width">6.0</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Canal.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Canal</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>48000.0</MaxScaleDenominator>
+                    <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#BED5E9</CssParameter>
+                            <CssParameter name="stroke-linejoin">round</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                            <CssParameter name="stroke-width">10.0</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <PerpendicularOffset>0.0</PerpendicularOffset>
+                    </LineSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+			<FeatureTypeStyle>
+        <Rule>
+          <Name>450_LIN</Name>
+			<Filter>
+			  <PropertyIsEqualTo>
+				<PropertyName>code_typo</PropertyName>
+				<Literal>450_LIN</Literal>
+			  </PropertyIsEqualTo>
+			</Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <Halo>
+			 <Radius>1.25</Radius>
+              <Fill>
+                <CssParameter name="fill">#FFFFFF</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+				<CssParameter name="fill">#1C62A6</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority><Literal>100</Literal></Priority> -->
+            <LabelPlacement>
+                            <LinePlacement>
+									<PerpendicularOffset>10</PerpendicularOffset>
+									<IsAligned>true</IsAligned>
+									<IsRepeated>false</IsRepeated>
+									<InitialGap>0.0</InitialGap>
+									<Gap>0.0</Gap>
+									<GeneralizeLine>false</GeneralizeLine>
+                            </LinePlacement>
+                        </LabelPlacement>
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>451_LIN</Name>
+			<Filter>
+			  <PropertyIsEqualTo>
+				<PropertyName>code_typo</PropertyName>
+				<Literal>451_LIN</Literal>
+			  </PropertyIsEqualTo>
+			</Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">62</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <Halo>
+              <Radius>1.25</Radius>
+              <Fill>
+                <CssParameter name="fill">#FFFFFF</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+				<CssParameter name="fill">#1C62A6</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>90</Literal>
+			</Priority> -->
+            <LabelPlacement>
+                            <LinePlacement>
+								<PerpendicularOffset>10</PerpendicularOffset>
+								<IsAligned>true</IsAligned>
+								<IsRepeated>false</IsRepeated>
+								<InitialGap>0.0</InitialGap>
+								<Gap>0.0</Gap>
+								<GeneralizeLine>false</GeneralizeLine>
+                            </LinePlacement>
+            </LabelPlacement>
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>452_LIN</Name>
+			<Filter>
+			  <PropertyIsEqualTo>
+				<PropertyName>code_typo</PropertyName>
+				<Literal>452_LIN</Literal>
+			  </PropertyIsEqualTo>
+			</Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">55</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+        
+            <Halo>
+              <Radius>1.25</Radius>
+              <Fill>
+                <CssParameter name="fill">#FFFFFF</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+				<CssParameter name="fill">#1C62A6</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>80</Literal>
+			</Priority> -->
+            <LabelPlacement>
+                            <LinePlacement>
+								<PerpendicularOffset>10</PerpendicularOffset>
+								<IsAligned>true</IsAligned>
+								<IsRepeated>false</IsRepeated>
+								<InitialGap>0.0</InitialGap>
+								<Gap>0.0</Gap>
+								<GeneralizeLine>false</GeneralizeLine>
+                            </LinePlacement>
+                        </LabelPlacement>
+          </TextSymbolizer>
+        </Rule>
+		    </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>453_LIN</Name>
+			<Filter>
+			  <PropertyIsEqualTo>
+				<PropertyName>code_typo</PropertyName>
+				<Literal>453_LIN</Literal>
+			  </PropertyIsEqualTo>
+			</Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">45</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+         
+            <Halo>
+              <Radius>1.25</Radius>
+              <Fill>
+                <CssParameter name="fill">#FFFFFF</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+				<CssParameter name="fill">#1C62A6</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>70</Literal>
+			</Priority> -->
+           <LabelPlacement>
+                            <LinePlacement>
+								<PerpendicularOffset>10</PerpendicularOffset>
+								<IsAligned>true</IsAligned>
+								<IsRepeated>false</IsRepeated>
+								<InitialGap>0.0</InitialGap>
+								<Gap>0.0</Gap>
+								<GeneralizeLine>false</GeneralizeLine>
+                            </LinePlacement>
+                        </LabelPlacement>
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>454_LIN</Name>
+			<Filter>
+			  <PropertyIsEqualTo>
+				<PropertyName>code_typo</PropertyName>
+				<Literal>454_LIN</Literal>
+			  </PropertyIsEqualTo>
+			</Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">41</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+          
+            <Halo>
+              <Radius>1.25</Radius>
+              <Fill>
+                <CssParameter name="fill">#FFFFFF</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+				<CssParameter name="fill">#1C62A6</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>60</Literal>
+			</Priority> -->
+            <LabelPlacement>
+                            <LinePlacement>
+								<PerpendicularOffset>10</PerpendicularOffset>
+								<IsAligned>true</IsAligned>
+								<IsRepeated>false</IsRepeated>
+								<InitialGap>0.0</InitialGap>
+								<Gap>0.0</Gap>
+								<GeneralizeLine>false</GeneralizeLine>
+                            </LinePlacement>
+            </LabelPlacement>
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

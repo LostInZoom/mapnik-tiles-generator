@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="3.365"
+   height="10.577"
+   viewBox="0 0 3.3650001 10.577"
+   xml:space="preserve"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="EgliseINF50m.svg"><metadata
+   id="metadata3060"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs3058" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview3056"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="24.676185"
+   inkscape:cx="1.6829999"
+   inkscape:cy="5.2884997"
+   inkscape:window-x="582"
+   inkscape:window-y="396"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g3050">
+	<path
+   style="fill-rule:evenodd"
+   d="M 1.949,0 V 1.418 H 3.365 V 1.949 H 1.949 V 3.92 L 1.994,3.924 2.143,3.96 2.291,4.005 2.426,4.072 2.565,4.144 2.691,4.23 2.808,4.329 2.92,4.438 3.02,4.554 3.11,4.685 3.186,4.82 3.25,4.96 3.299,5.105 3.334,5.257 3.357,5.405 3.365,5.563 V 5.58 L 3.357,5.737 3.34,5.886 3.303,6.039 3.258,6.188 3.191,6.322 3.119,6.462 3.033,6.588 2.933,6.705 2.826,6.817 2.709,6.917 2.578,7.007 2.443,7.083 2.305,7.146 2.16,7.195 2.008,7.231 1.859,7.254 1.701,7.263 H 1.684 L 1.525,7.254 1.377,7.236 1.225,7.2 1.076,7.155 0.941,7.088 0.801,7.016 0.676,6.931 0.559,6.831 0.445,6.724 0.347,6.606 0.257,6.475 0.18,6.341 0.117,6.201 0.068,6.053 0.032,5.904 0.009,5.756 0,5.599 V 5.58 L 0.009,5.423 0.027,5.27 0.063,5.122 0.108,4.974 0.176,4.839 0.248,4.699 0.333,4.573 0.432,4.456 0.54,4.343 0.657,4.244 0.787,4.153 0.923,4.077 1.063,4.014 1.211,3.964 1.359,3.928 1.418,3.92 V 1.949 H 0 V 1.418 H 1.418 V 0 H 1.949 z M 0.531,5.58 0.54,5.706 0.559,5.837 0.594,5.954 0.644,6.075 0.703,6.187 0.774,6.291 0.86,6.391 0.96,6.472 1.059,6.548 1.17,6.61 1.287,6.66 1.408,6.7 1.535,6.723 1.66,6.732 H 1.683 L 1.808,6.723 1.939,6.704 2.056,6.668 2.178,6.62 2.291,6.561 2.395,6.489 2.494,6.403 2.575,6.304 2.65,6.206 2.713,6.093 2.764,5.977 2.804,5.855 2.826,5.729 2.835,5.603 V 5.58 L 2.826,5.454 2.809,5.323 2.771,5.207 2.727,5.085 2.664,4.973 2.592,4.869 2.507,4.771 2.408,4.689 2.308,4.612 2.196,4.55 2.079,4.5 1.957,4.46 1.832,4.438 1.705,4.428 H 1.684 L 1.557,4.438 1.427,4.456 1.31,4.491 1.188,4.536 1.076,4.6 0.973,4.671 0.873,4.757 0.792,4.855 0.716,4.955 0.652,5.067 0.604,5.185 0.563,5.306 0.54,5.432 0.531,5.558 V 5.58 z"
+   id="path3052"
+   inkscape:connector-curvature="0" />
+</g>
+<ellipse
+   style="fill:none"
+   cx="1.6569999"
+   cy="8.9219999"
+   rx="1.281"
+   ry="1.655"
+   id="ellipse3054"
+   sodipodi:cx="1.6569999"
+   sodipodi:cy="8.9219999"
+   sodipodi:rx="1.281"
+   sodipodi:ry="1.655" />
+</svg>

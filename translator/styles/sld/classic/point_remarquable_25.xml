@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>point_remarquable_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer point_remarquable_25</Name>
+            <IsDefault>false</IsDefault>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Arbre</Name>
+					<Filter>				
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Arbre</Literal>
+							</PropertyIsEqualTo>
+	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Arbreremarquable.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>102</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>				
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Point de vue</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Point de vue</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Pointdevuemultiple.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>79</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Table d'orientation</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Table d'orientation</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Tabledorientation.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>53</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>				
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Amer</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Amer</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Feu.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>63</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Cascade</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Cascade</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Cascade.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>50</Size>
+							<!--<Rotation>
+								<PropertyName>rotation</PropertyName>
+							</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>				
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Feu</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Feu</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Feu.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>63</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Balise</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Balise</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Balise.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>60</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Mine souterraine</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Mine souterraine</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Grotte.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Gouffre</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Gouffre</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Escavation.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Grotte</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Grotte</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Grotte.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>30</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Hôpital</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Hôpital</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Hopital.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>42</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>			
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Port de plaisance</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Port de plaisance</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Portdeplaisance.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>111</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>				
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Borne</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Borne</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/carrlimite.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>20</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Croix</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Croix</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Monumreligieuxcroix.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>90</Size>
+							<!--<Rotation>
+								<PropertyName>rotation</PropertyName>
+							</Rotation>-->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Borne frontière</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Borne frontière</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/bornefrontiere.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>20</Size>
+							<!-- <Rotation>0</Rotation> -->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>Calvaire</Name>
+					<Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Calvaire</Literal>
+							</PropertyIsEqualTo>	
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<href>/symbols/scan_express_25/Monumreligieuxcroix.svg</href>
+								<Format>svg</Format>
+							</ExternalGraphic>
+							<Size>90</Size>
+							<!--<Rotation>
+								<PropertyName>rotation</PropertyName>
+							</Rotation>-->
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>

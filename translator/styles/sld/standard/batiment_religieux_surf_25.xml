@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>batiment_religieux_surf_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer batiment_religieux_surf_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Bâti chrétien plus 50 m.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Bâti chrétien plus 50 m</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#595959</CssParameter>
+                            <CssParameter name="stroke-width">3.75</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Synagogue.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Synagogue</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#595959</CssParameter>
+                            <CssParameter name="stroke-width">3.75</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Mosquée.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Mosquée</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#595959</CssParameter>
+                            <CssParameter name="stroke-width">3.75</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Autre culte.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Autre culte</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#595959</CssParameter>
+                            <CssParameter name="stroke-width">3.75</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Bâti chrétien plus 50 m.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Bâti chrétien plus 50 m</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#595959</CssParameter>
+                            <CssParameter name="stroke-width">3.75</CssParameter>
+                            <CssParameter name="stroke-linecap">round</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Synagogue.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Synagogue</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#595959</CssParameter>
+                            <CssParameter name="stroke-width">3.75</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Mosquée.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Mosquée</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#595959</CssParameter>
+                            <CssParameter name="stroke-width">3.75</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Autre culte.1</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Autre culte</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <Stroke>
+                            <CssParameter name="stroke">#595959</CssParameter>
+                            <CssParameter name="stroke-width">3.75</CssParameter>
+                        </Stroke>
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+			<FeatureTypeStyle>
+        <Rule>
+          <Name>Synagogue</Name>
+          <Filter>
+							<PropertyIsEqualTo matchCase="true">
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Synagogue</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Geometry><PropertyName>centre_geom</PropertyName></Geometry>
+            <Graphic>
+              <ExternalGraphic>
+                <href>/symbols/scan_express_25/Synagogue.svg</href>
+                <Format>svg</Format>
+              </ExternalGraphic>
+              <Size>50</Size>
+             <!-- <Rotation>
+						<PropertyName>rotation</PropertyName>
+			 </Rotation> -->
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+	  
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Mosquée</Name>
+          <Filter>
+							<PropertyIsEqualTo matchCase="true">
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Mosquée</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Geometry><PropertyName>centre_geom</PropertyName></Geometry>
+            <Graphic>
+              <ExternalGraphic>
+                <href>/symbols/scan_express_25/Mosque.svg</href>
+                <Format>svg</Format>
+              </ExternalGraphic>
+              <Size>80</Size>
+             <!-- <Rotation>
+					<PropertyName>rotation</PropertyName>
+			</Rotation> -->
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+	  
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Autre culte</Name>
+          <Filter>
+							<PropertyIsEqualTo matchCase="true">
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Autre culte</Literal>
+							</PropertyIsEqualTo>
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Geometry><PropertyName>centre_geom</PropertyName></Geometry>
+            <Graphic>
+              <ExternalGraphic>
+                <href>/symbols/scan_express_25/Autreculte.svg</href>
+                <Format>svg</Format>
+              </ExternalGraphic>
+              <Size>38</Size>
+             <!-- <Rotation>
+						<PropertyName>rotation</PropertyName>
+			</Rotation> -->
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>toponyme_courbe_25</Name>
+        <UserStyle>
+			<Title>TOPONYME_COURBE_25</Title>
+	     	<FeatureTypeStyle>
+				<Rule>
+					<Name>NOM_ROUTE</Name>
+					<Filter>
+					<And>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>NOM_ROUTE</Literal>
+							</PropertyIsEqualTo>
+
+							 <PropertyIsEqualTo>
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+							</PropertyIsEqualTo>
+	
+		     		  </And>
+					</Filter>
+					 <MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Label>
+								<PropertyName>ref_ecritu</PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Formata Regular</CssParameter>
+							<CssParameter name="font-style">normal</CssParameter>
+							 <CssParameter name="font-size">54</CssParameter>
+							<CssParameter name="font-weight">normal</CssParameter>
+						</Font>
+						
+						<Halo>
+						 	<Radius>5</Radius>
+							<Fill>
+								<CssParameter name="fill">#ffffff</CssParameter>
+								<CssParameter name="fill-opacity">1.0</CssParameter>
+							</Fill>
+						</Halo>
+							<Fill>
+							<CssParameter name="fill">#0c0c0c</CssParameter>
+							<CssParameter name="fill-opacity">1.0</CssParameter>
+						</Fill>
+						<!-- <Priority>
+						<Literal>1000</Literal>
+						</Priority> -->
+					   <LabelPlacement>
+                            <LinePlacement>
+									<PerpendicularOffset>10</PerpendicularOffset>
+									<IsAligned>true</IsAligned>
+									<IsRepeated>false</IsRepeated>
+									<InitialGap>0.0</InitialGap>
+									<Gap>0.0</Gap>
+									<GeneralizeLine>false</GeneralizeLine>
+                            </LinePlacement>
+                        </LabelPlacement>
+					</TextSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>NOM_CHEMIN</Name>
+					<Filter>
+					<And>
+						<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>NOM_CHEMIN</Literal>
+						</PropertyIsEqualTo>
+				
+							 <PropertyIsEqualTo>
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+							</PropertyIsEqualTo>
+							 
+				   </And>
+					</Filter>
+					 <MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Label>
+								<PropertyName>ref_ecritu</PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Formata Regular</CssParameter>
+							<CssParameter name="font-style">normal</CssParameter>
+							 <CssParameter name="font-size">50</CssParameter>
+							<CssParameter name="font-weight">normal</CssParameter>
+						</Font>
+						
+						<Halo>
+							<Radius>5</Radius>
+							<Fill>
+								<CssParameter name="fill">#ffffff</CssParameter>
+								<CssParameter name="fill-opacity">1.0</CssParameter>
+							</Fill>
+						</Halo>
+						<Fill>
+							<CssParameter name="fill">#0c0c0c</CssParameter>
+							<CssParameter name="fill-opacity">1.0</CssParameter>
+						</Fill>
+						<!-- <Priority>
+						<Literal>1000</Literal>
+						</Priority> -->
+					<LabelPlacement>
+                            <LinePlacement>
+									<PerpendicularOffset>10</PerpendicularOffset>
+									<IsAligned>true</IsAligned>
+									<IsRepeated>false</IsRepeated>
+									<InitialGap>0.0</InitialGap>
+									<Gap>0.0</Gap>
+									<GeneralizeLine>false</GeneralizeLine>
+                            </LinePlacement>
+                        </LabelPlacement>
+						</TextSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+		
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>NOM_CABLE</Name>
+					<Filter>
+					<And>
+						<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>NOM_CABLE</Literal>
+						</PropertyIsEqualTo>
+		
+							 <PropertyIsEqualTo>
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+							</PropertyIsEqualTo>
+							 
+				   </And>
+					</Filter>
+					 <MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Label>
+								<PropertyName>ref_ecritu</PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Formata Regular</CssParameter>
+							<CssParameter name="font-style">italic</CssParameter>
+							 <CssParameter name="font-size">51</CssParameter>
+							<CssParameter name="font-weight">normal</CssParameter>
+						</Font>
+						
+						<Halo>
+							<Radius>5</Radius>
+							<Fill>
+								<CssParameter name="fill">#ffffff</CssParameter>
+								<CssParameter name="fill-opacity">1.0</CssParameter>
+							</Fill>
+						</Halo>
+						<Fill>
+							<CssParameter name="fill">#0c0c0c</CssParameter>
+							<CssParameter name="fill-opacity">1.0</CssParameter>
+						</Fill>
+						<!-- <Priority>
+						<Literal>1000</Literal>
+						</Priority> -->
+						<LabelPlacement>
+                            <LinePlacement>
+								<PerpendicularOffset>10</PerpendicularOffset>
+								<IsAligned>true</IsAligned>
+								<IsRepeated>false</IsRepeated>
+								<InitialGap>0.0</InitialGap>
+								<Gap>0.0</Gap>
+								<GeneralizeLine>false</GeneralizeLine>
+                            </LinePlacement>
+                        </LabelPlacement>
+					</TextSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<!--FeatureTypeStyle>
+				<Rule>
+					<Name>NOM_VOIE_FERREE</Name>
+					<Filter>
+					<And>
+						<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>NOM_VOIE_FERREE</Literal>
+						</PropertyIsEqualTo>
+					  	<Or>
+							 <PropertyIsEqualTo>
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+							</PropertyIsEqualTo>
+							  <PropertyIsEqualTo> 
+							<PropertyName>placement_</PropertyName>
+							<Literal>1</Literal>
+						  </PropertyIsEqualTo>
+					  </Or>
+					  <Or>
+							 <PropertyIsNull>
+							<PropertyName>detruit</PropertyName>
+							</PropertyIsNull>
+								 <PropertyIsNotEqualTo>
+						<PropertyName>detruit</PropertyName>
+						<Literal>detruit</Literal>
+					  </PropertyIsNotEqualTo>
+					  </Or>
+				   </And>
+					</Filter>
+					 <MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Label>
+								<PropertyName>ref_ecritu</PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Formata Regular</CssParameter>
+							<CssParameter name="font-style">italic</CssParameter>
+							 <CssParameter name="font-size">51</CssParameter>
+							<CssParameter name="font-weight">normal</CssParameter>
+						</Font>
+					
+						<Halo>
+							<Radius>2.5</Radius>
+							<Fill>
+								<CssParameter name="fill">#ffffff</CssParameter>
+								<CssParameter name="fill-opacity">1.0</CssParameter>
+							</Fill>
+						</Halo>
+						<Fill>
+							 <CssParameter name="fill">#0c0c0c</CssParameter>
+							<CssParameter name="fill-opacity">1.0</CssParameter>
+						</Fill>
+						<Priority>
+						<Literal>1000</Literal>
+						</Priority>
+						<VendorOption name="followLine">true</VendorOption>
+						  <VendorOption name="conflictResolution">false</VendorOption>
+						<VendorOption name="spaceAround">-1000</VendorOption>
+					</TextSymbolizer>
+				</Rule>
+			</FeatureTypeStyle-->
+		<FeatureTypeStyle>
+				<Rule>
+					<Name>DES_LIN</Name>
+					<Filter>
+					<And>
+						<PropertyIsEqualTo>
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>DES_LIN</Literal>
+						</PropertyIsEqualTo>
+						
+							 <PropertyIsEqualTo>
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+							</PropertyIsEqualTo>
+							
+					   </And>
+					</Filter>
+					 <MinScaleDenominator>4000</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Label>
+								<PropertyName>ref_ecritu</PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Formata Regular</CssParameter>
+							<CssParameter name="font-style">italic</CssParameter>
+						 <CssParameter name="font-size">45</CssParameter>
+							<CssParameter name="font-weight">normal</CssParameter>
+						</Font>
+					
+						<Halo>
+							<Radius>5</Radius>
+							<Fill>
+								<CssParameter name="fill">#ffffff</CssParameter>
+								<CssParameter name="fill-opacity">1.0</CssParameter>
+							</Fill>
+						</Halo>
+						<Fill>
+							<CssParameter name="fill">#0c0c0c</CssParameter>
+							<CssParameter name="fill-opacity">1.0</CssParameter>
+						</Fill>
+						<!-- <Priority>
+						<Literal>1000</Literal>
+						</Priority> -->
+						<LabelPlacement>
+                            <LinePlacement>
+									<PerpendicularOffset>10</PerpendicularOffset>
+									<IsAligned>true</IsAligned>
+									<IsRepeated>false</IsRepeated>
+									<InitialGap>0.0</InitialGap>
+									<Gap>0.0</Gap>
+									<GeneralizeLine>false</GeneralizeLine>
+                            </LinePlacement>
+                        </LabelPlacement>
+					</TextSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+			<!-- a activer plus tard
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>DES_LIN_ROU</Name>
+					<Filter>
+					<And>
+							<Or>
+								<PropertyIsEqualTo>
+									<PropertyName>ref_ecritu</PropertyName>
+									<Literal>Ancienne voie romaine</Literal>
+								</PropertyIsEqualTo>
+									<PropertyIsEqualTo>
+									<PropertyName>ref_ecritu</PropertyName>
+									<Literal>Voie interdite aux véhicules à moteur</Literal>
+								</PropertyIsEqualTo>
+									<PropertyIsEqualTo>
+									<PropertyName>ref_ecritu</PropertyName>
+									<Literal>Chaussée submersible</Literal>
+								</PropertyIsEqualTo>
+							</Or>
+							<Or>
+							 <PropertyIsEqualTo>
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+							</PropertyIsEqualTo>
+							  <PropertyIsEqualTo> 
+							<PropertyName>placement_</PropertyName>
+							<Literal>1</Literal>
+						  </PropertyIsEqualTo>
+					  </Or>
+					  <Or>
+							 <PropertyIsNull>
+							<PropertyName>detruit</PropertyName>
+							</PropertyIsNull>
+								 <PropertyIsNotEqualTo>
+						<PropertyName>detruit</PropertyName>
+						<Literal>detruit</Literal>
+					  </PropertyIsNotEqualTo>
+					  </Or>
+					  </And>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Label>
+								<PropertyName>ref_ecritu</PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Formata Regular</CssParameter>
+							<CssParameter name="font-style">italic</CssParameter>
+							 <CssParameter name="font-size">24</CssParameter>
+							<CssParameter name="font-weight">normal</CssParameter>
+						</Font>
+					
+						<Halo>
+							 <Radius>2.5</Radius>
+							<Fill>
+								<CssParameter name="fill">#FFFFFF</CssParameter>
+								<CssParameter name="fill-opacity">1.0</CssParameter>
+							</Fill>
+						</Halo>
+						<Fill>
+							<CssParameter name="fill">#0c0c0c</CssParameter>
+							<CssParameter name="fill-opacity">1.0</CssParameter>
+						</Fill>
+						<Priority>
+						<Literal>1000</Literal>
+						</Priority>
+						<VendorOption name="spaceAround">-1000</VendorOption>
+						<VendorOption name="followLine">true</VendorOption>
+						<VendorOption name="conflictResolution">true</VendorOption>
+						<VendorOption name="forceLeftToRight">false</VendorOption>
+						<VendorOption name="maxAngleDelta">50</VendorOption>
+					</TextSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+				<FeatureTypeStyle>
+				<Rule>
+					<Name>DES_LIN_TOU</Name>
+					<Filter>
+				<And>
+						<Or>
+							<PropertyIsEqualTo>
+								<PropertyName>ref_ecritu</PropertyName>
+								<Literal>Itinéraire équestre</Literal>
+							</PropertyIsEqualTo>
+								<PropertyIsEqualTo>
+								<PropertyName>ref_ecritu</PropertyName>
+								<Literal>Parcours sportif</Literal>
+							</PropertyIsEqualTo>
+							
+						</Or>
+							<Or>
+							 <PropertyIsEqualTo>
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+							</PropertyIsEqualTo>
+							  <PropertyIsEqualTo> 
+							<PropertyName>placement_</PropertyName>
+							<Literal>1</Literal>
+						  </PropertyIsEqualTo>
+					  </Or>
+					  <Or>
+							 <PropertyIsNull>
+							<PropertyName>detruit</PropertyName>
+							</PropertyIsNull>
+								 <PropertyIsNotEqualTo>
+						<PropertyName>detruit</PropertyName>
+						<Literal>detruit</Literal>
+					  </PropertyIsNotEqualTo>
+					  </Or>
+					   </And>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Label>
+								<PropertyName>ref_ecritu</PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Formata Regular</CssParameter>
+							<CssParameter name="font-style">italic</CssParameter>
+							 <CssParameter name="font-size">24</CssParameter>
+							<CssParameter name="font-weight">normal</CssParameter>
+						</Font>
+					
+						<Halo>
+							 <Radius>2.5</Radius>
+							<Fill>
+								<CssParameter name="fill">#FFFFFF</Literal></Function></CssParameter>
+								<CssParameter name="fill-opacity">1.0</CssParameter>
+							</Fill>
+						</Halo>
+						<Fill>
+							<CssParameter name="fill">#AD4E81</CssParameter>
+							<CssParameter name="fill-opacity">1.0</CssParameter>
+						</Fill>
+						<Priority>
+						<Literal>1000</Literal>
+						</Priority>
+						<VendorOption name="spaceAround">-1000</VendorOption>
+						<VendorOption name="followLine">true</VendorOption>
+						<VendorOption name="conflictResolution">true</VendorOption>
+						<VendorOption name="forceLeftToRight">false</VendorOption>
+						<VendorOption name="maxAngleDelta">50</VendorOption>
+					</TextSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+				<FeatureTypeStyle>
+				<Rule>
+					<Name>DES_LIN_TOU</Name>
+					<Filter>
+					<And>
+				
+							<PropertyIsEqualTo>
+								<PropertyName>ref_ecritu</PropertyName>
+								<Literal>Ligne TGV</Literal>
+							</PropertyIsEqualTo>
+								<PropertyIsEqualTo>
+								<PropertyName>ref_ecritu</PropertyName>
+								<Literal>Train touristique</Literal>
+							</PropertyIsEqualTo>
+						</Or>
+							<Or>
+							 <PropertyIsEqualTo>
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+							</PropertyIsEqualTo>
+							  <PropertyIsEqualTo> 
+							<PropertyName>placement_</PropertyName>
+							<Literal>1</Literal>
+						  </PropertyIsEqualTo>
+					  </Or>
+					  <Or>
+							 <PropertyIsNull>
+							<PropertyName>detruit</PropertyName>
+							</PropertyIsNull>
+								 <PropertyIsNotEqualTo>
+						<PropertyName>detruit</PropertyName>
+						<Literal>detruit</Literal>
+					  </PropertyIsNotEqualTo>
+					  </Or>
+					   </And>
+					</Filter>
+					<MinScaleDenominator>0</MinScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<MaxScaleDenominator>34000</MaxScaleDenominator>
+					<TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Label>
+								<PropertyName>ref_ecritu</PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Formata Regular</CssParameter>
+							<CssParameter name="font-style">italic</CssParameter>
+							 <CssParameter name="font-size">24</CssParameter>
+							<CssParameter name="font-weight">normal</CssParameter>
+						</Font>
+					
+						<Halo>
+							 <Radius>2.5</Radius>
+							<Fill>
+								<CssParameter name="fill">#FFFFFF</CssParameter>
+								<CssParameter name="fill-opacity">1.0</CssParameter>
+							</Fill>
+						</Halo>
+						<Fill>
+							<CssParameter name="fill">#0c0c0c</CssParameter>
+							<CssParameter name="fill-opacity">1.0</CssParameter>
+						</Fill>
+						<Priority>
+						<Literal>1000</Literal>
+						</Priority>
+						<VendorOption name="spaceAround">-1000</VendorOption>
+						<VendorOption name="followLine">true</VendorOption>
+						<VendorOption name="conflictResolution">true</VendorOption>
+						<VendorOption name="forceLeftToRight">false</VendorOption>
+						<VendorOption name="maxAngleDelta">50</VendorOption>
+					</TextSymbolizer>
+				</Rule>
+			</FeatureTypeStyle-->
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>

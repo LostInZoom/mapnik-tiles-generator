@@ -1,0 +1,3554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>toponyme_droit_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer toponyme_droit_25</Name>
+            <IsDefault>false</IsDefault>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>100</Name>
+         <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>100</Literal>
+                            </PropertyIsEqualTo>
+                            
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Condensed</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+               <!-- <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation> -->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+		  	   <Radius>3.5</Radius>
+               <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+			
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1108</Literal>
+			</Priority> -->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>101</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+<PropertyName>symbolisat</PropertyName>
+<Literal>101</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+<PropertyName>placement_</PropertyName>
+<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Condensed</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+                	<!-- 			<Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation> -->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+              <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+		
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+				 <!-- <Priority>
+				<Literal>1107</Literal>
+			</Priority> -->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>102</Name>
+          <Filter>
+ <And>
+                            <PropertyIsEqualTo matchCase="true">
+<PropertyName>symbolisat</PropertyName>
+<Literal>102</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+<PropertyName>placement_</PropertyName>
+<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+          </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Condensed</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+             <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-47</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation> -->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>	
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			 <!-- <Priority>
+				<Literal>1106</Literal>
+			</Priority> -->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>110</Name>
+          <Filter>
+                         <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>110</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+								<PropertyName>placement_</PropertyName>
+								<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+          </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Condensed</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-47</DisplacementY>
+                </Displacement>
+               <!-- <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation> -->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			 <!-- <Priority>
+				<Literal>1105</Literal>
+			</Priority> -->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> --> 
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>111</Name>
+          <Filter>
+                         <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>111</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+          </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Condensed</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+               <CssParameter name="font-size">62</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-40</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation> -->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			 <!-- <Priority>
+				<Literal>1104</Literal>
+			</Priority> -->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>112</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>112</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Condensed</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-size">58</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-36</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1103</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>113</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>113</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Condensed</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+                <CssParameter name="font-size">58</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-36</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1102</Literal>
+			</Priority>-->
+            <VendorOption name="conflictResolution">true</VendorOption>  <VendorOption name="spaceAround">-100</VendorOption>
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>114</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>114</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Condensed</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+               <CssParameter name="font-size">50</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-31</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1101</Literal>
+			</Priority>-->
+            <VendorOption name="conflictResolution">true</VendorOption>  <VendorOption name="spaceAround">-100</VendorOption>
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+	  <!-- pour les 200, discriminer reserver nat > ADM du reste-->
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>210</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>210</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1008</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>220</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>220</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+            <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1007</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>221</Name>
+ <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>221</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+             <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1006</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>222</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>222</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+              <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-47</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1005</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>230</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>230</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+           <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-47</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				  <CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+			
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1004</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>231</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>231</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+              <CssParameter name="font-size">62</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-40</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1003</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>232</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>232</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+              <CssParameter name="font-size">58</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-36</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1002</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>233</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>233</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+              <CssParameter name="font-size">54</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-34</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1001</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>234</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>234</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+             <CssParameter name="font-size">50</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-31</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+	   <!-- pour les 300, discriminer croix > CTR du reste-->
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>340</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>340</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+             <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#754B43</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1008</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>341</Name>
+         <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>341</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1007</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>342</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>342</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-47</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1006</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>350</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>350</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-47</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1005</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>351</Name>
+         <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>351</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">62</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-40</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1004</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>352</Name>
+        <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>352</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">58</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-36</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1003</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>353</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>353</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">54</CssParameter>
+              <CssParameter name="font-weight">bold</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-34</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1002</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>354</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>354</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">45</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-29</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1001</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>355</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>355</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">38</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-23</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>440</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>440</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+          
+              </Fill>
+			    </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1008</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>441</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>441</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1007</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>442</Name>
+         <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>442</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-47</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+               </Fill>
+		     </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1006</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>450</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>450</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-47</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1005</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>451</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>451</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">62</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+               <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-40</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1004</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>452</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>452</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">54</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-34</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1003</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>453</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>453</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+              <CssParameter name="font-size">45</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-29</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1002</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>454</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>454</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">41</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-26</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1001</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>455</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>455</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">38</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>-2</DisplacementX>
+                  <DisplacementY>-23</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>COURBE</Name>
+     <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>COURBE</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">33</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-21</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+			  <CssParameter name="fill-opacity">0.5</CssParameter>
+                </Fill>
+		      </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			   <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>COURBE_GLACIER</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>COURBE_GLACIER</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">33</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-21</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				 <CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0084FC</CssParameter>
+			   <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>COURBE_ROCHER</Name>
+        <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>COURBE_ROCHER</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">33</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-21</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="opacity">0.5</CssParameter>
+				 <CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			   <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>COURBE_BATHY</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>COURBE_BATHY</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">33</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-21</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				 <CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>COTE</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>COTE</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+              <CssParameter name="font-size">41</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-26</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+					 
+			
+					<CssParameter name="fill-opacity">1.0</CssParameter>
+                    </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+   
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>NUM_ROUTE</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>NUM_ROUTE</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Condensed</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+                <CssParameter name="font-size">54</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-34</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				  <CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>  
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>NUM_AUTOROUTE</Name>
+      <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>NUM_AUTOROUTE</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Condensed</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+               <CssParameter name="font-size">54</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-34</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+		       <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				  <CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			    <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->  
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>DES</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>DES</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">41</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-29</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+			 <Radius>5</Radius>
+               <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1103</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>DET</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>DET</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">41</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-29</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				 <CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+			 
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#FF00FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>DETB</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>DETB</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">41</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-29</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				 <CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+			   
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			    <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>TOT</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>TOT</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">41</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-29</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				  <CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#FF00FF</CssParameter>
+			   <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>TOTB</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>TOTB</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">41</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-29</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				    <CssParameter name="fill-opacity">1.0</CssParameter>
+        
+              </Fill>
+			    </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			    <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>220_LD</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>220_LD</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1008</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>221_LD</Name>
+          <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>221_LD</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">100</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-63</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1007</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>222_LD</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>222_LD</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-47</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1006</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>230_LD</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>230_LD</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">75</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-47</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1005</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>231_LD</Name>
+         <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>231_LD</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+              <CssParameter name="font-size">62</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-40</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1004</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>232_LD</Name>
+           <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>232_LD</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">62</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-36</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1003</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>233_LD</Name>
+        <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>233_LD</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">54</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-34</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1002</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>234_LD</Name>
+         <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>234_LD</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">50</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-31</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1001</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>NOM_CABLE</Name>
+         <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>NOM_CABLE</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+                <CssParameter name="font-size">51</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-31</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0c0c0c</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+           
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>DETBF</Name>
+         <Filter>
+                        <And>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>symbolisat</PropertyName>
+							<Literal>DETBF</Literal>
+                            </PropertyIsEqualTo>
+                            <PropertyIsEqualTo matchCase="true">
+							<PropertyName>placement_</PropertyName>
+							<Literal>true</Literal>
+                            </PropertyIsEqualTo>
+                        </And>
+                    </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-style">normal</CssParameter>
+              <CssParameter name="font-size">41</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.5</AnchorPointX>
+                  <AnchorPointY>0.0</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                  <DisplacementX>0</DisplacementX>
+                  <DisplacementY>-29</DisplacementY>
+                </Displacement>
+                <!--  <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation>-->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				 <CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>1000</Literal>
+			</Priority>-->
+            <!-- <VendorOption name="conflictResolution">true</VendorOption> <VendorOption name="spaceAround">-100</VendorOption> -->
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+	   <FeatureTypeStyle>
+        <Rule>
+          <Name>454</Name>
+          <Filter>
+            <And>
+              <PropertyIsEqualTo>
+                <PropertyName>symbolisat</PropertyName>
+                <Literal>454</Literal>
+              </PropertyIsEqualTo>
+            </And>
+          </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+               <CssParameter name="font-size">41</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+            <LabelPlacement>
+              <PointPlacement>
+                <AnchorPoint>
+                  <AnchorPointX>0.0</AnchorPointX>
+                  <AnchorPointY>0.5</AnchorPointY>
+                </AnchorPoint>
+                <Displacement>
+                 <DisplacementX>20</DisplacementX>
+                  <DisplacementY>20</DisplacementY>
+                </Displacement>
+                <!-- <Rotation>
+                  <PropertyName>rotation</PropertyName>
+                </Rotation> -->
+              </PointPlacement>
+            </LabelPlacement>
+           <Halo>
+               <Radius>5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#0080FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+			<!-- <Priority>
+				<Literal>105</Literal>
+			</Priority> -->
+          <!--   <VendorOption name="conflictResolution">true</VendorOption>
+           <VendorOption name="maxDisplacement">100</VendorOption> -->
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>

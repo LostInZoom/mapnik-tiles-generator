@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="55px" height="80px" viewBox="-0.133 -0.37 55 80" enable-background="new -0.133 -0.37 55 80"
+	 xml:space="preserve">
+<defs>
+</defs>
+<ellipse fill="#FFFFFF" cx="27.034" cy="18.464" rx="9.167" ry="12"/>
+<polygon fill="#FFFFFF" points="19.034,31.797 12.701,76.464 42.367,76.797 34.034,31.797 "/>
+<rect x="7.131" y="72.368" fill="#646464" width="42.52" height="7.087"/>
+<rect x="14.729" y="50.376" fill="#646464" width="24.688" height="17.008"/>
+<rect x="-6.153" y="47.501" transform="matrix(0.1323 -0.9912 0.9912 0.1323 -34.4881 59.8565)" fill="#646464" width="46.197" height="4.252"/>
+<rect x="15.17" y="48.053" transform="matrix(-0.1819 -0.9833 0.9833 -0.1819 -4.5696 96.5565)" fill="#646464" width="45.426" height="4.252"/>
+<rect x="18.908" y="24.662" fill="#646464" width="18.125" height="9.921"/>
+<path fill="#646464" d="M20.18,23.348c-0.979-1.606-1.497-3.488-1.497-5.444c0-5.191,3.588-9.415,7.999-9.415
+	s7.999,4.224,7.999,9.415c0,1.845-0.63,4.096-1.605,5.736l3.307,1.966c1.323-2.225,2.145-5.176,2.145-7.702
+	c0-7.313-5.313-13.261-11.845-13.261s-11.845,5.949-11.845,13.261c0,2.663,0.711,5.237,2.058,7.447L20.18,23.348z"/>
+<polygon fill="#646464" points="12.385,28.043 40.822,28.043 40.822,25.208 40.822,25.208 40.822,25.208 40.822,22.374 
+	12.385,22.374 12.385,25.208 12.385,25.208 12.385,25.208 "/>
+<rect x="0.233" y="2.102" transform="matrix(-0.9247 -0.3807 0.3807 -0.9247 10.2746 8.5047)" fill="#646464" width="11.49" height="2.268"/>
+<rect x="-0.001" y="14.133" transform="matrix(0.9247 -0.3807 0.3807 0.9247 -5.3804 3.337)" fill="#646464" width="11.49" height="2.268"/>
+<rect x="41.405" y="3.118" transform="matrix(0.9247 -0.3807 0.3807 0.9247 1.9326 18.2727)" fill="#646464" width="11.49" height="2.268"/>
+<rect x="42.655" y="14.758" transform="matrix(-0.9247 -0.3807 0.3807 -0.9247 87.1042 49.0161)" fill="#646464" width="11.49" height="2.268"/>
+</svg>

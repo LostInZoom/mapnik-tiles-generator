@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>itineraire_touristique_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer itineraire_touristique_25</Name>
+            <IsDefault>false</IsDefault> 
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>GR sur sentier.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>GR sur sentier</Literal>
+							</PropertyIsEqualTo>		
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>GR hors sentier.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>GR hors sentier</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+             <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>PR sur sentier.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>PR sur sentier</Literal>
+							</PropertyIsEqualTo>
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+               <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>PR hors sentier.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>PR hors sentier</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>GRP sur sentier.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>GRP sur sentier</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>GRP hors sentier.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>GRP hors sentier</Literal>
+							</PropertyIsEqualTo>
+		
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+               <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Autre sentier pédestre.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Autre sentier pédestre</Literal>
+							</PropertyIsEqualTo>
+					</Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-dasharray">75 25 0 0 0 0</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Hors sentier pédestre.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Hors sentier pédestre</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-dasharray">75 25 0 0 0 0</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Itinéraire équestre.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Itinéraire équestre</Literal>
+							</PropertyIsEqualTo>
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-dasharray">75 25 0 0 0 0</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Sentier de découverte.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Sentier de découverte</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+             <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-dasharray">75 25 0 0 0 0</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Club vosgien sur sentier.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Club vosgien sur sentier</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+              <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Club vosgien hors sentier.1</Name>
+          <Filter>
+							<PropertyIsEqualTo>
+								<PropertyName>symbolisat</PropertyName>
+								<Literal>Club vosgien hors sentier</Literal>
+							</PropertyIsEqualTo>	
+          </Filter>
+          <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Stroke>
+               <CssParameter name="stroke">#FF00FF</CssParameter>
+              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke-linecap">butt</CssParameter>
+              <CssParameter name="stroke-width">10</CssParameter>			  
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+	   <FeatureTypeStyle>
+        <Rule>
+          <Name>Toponyme_GR</Name>
+         <Filter>
+			  <Or>
+				   <PropertyIsEqualTo>
+					  <PropertyName>symbolisat</PropertyName>
+					  <Literal>GR sur sentier</Literal>
+					</PropertyIsEqualTo>
+					 <PropertyIsEqualTo>
+					  <PropertyName>symbolisat</PropertyName>
+					  <Literal>GR hors sentier</Literal>
+					</PropertyIsEqualTo>
+					<PropertyIsEqualTo>
+					  <PropertyName>symbolisat</PropertyName>
+					  <Literal>GRP sur sentier</Literal>
+					</PropertyIsEqualTo>
+					<PropertyIsEqualTo>
+					  <PropertyName>symbolisat</PropertyName>
+					  <Literal>GRP hors sentier</Literal>
+					</PropertyIsEqualTo>
+				</Or>
+          </Filter>
+           <MinScaleDenominator>0</MinScaleDenominator>
+          <MaxScaleDenominator>34000</MaxScaleDenominator>
+          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Label>
+              <PropertyName>ref_ecritu</PropertyName>
+            </Label>
+               <Font>
+              <CssParameter name="font-family">Formata Regular</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+              <CssParameter name="font-size">51</CssParameter>
+			  <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+             <Halo>
+               <Radius>3.5</Radius>
+              <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+				<CssParameter name="fill-opacity">1.0</CssParameter>
+              </Fill>
+            </Halo>
+            <Fill>
+              <CssParameter name="fill">#FF00FF</CssParameter>
+			  <CssParameter name="fill-opacity">1.0</CssParameter>
+            </Fill>
+		    <!-- <Priority>
+				<Literal>80</Literal>
+			</Priority> -->
+            <LabelPlacement>
+                            <LinePlacement>
+									<PerpendicularOffset>10</PerpendicularOffset>
+									<IsAligned>true</IsAligned>
+									<IsRepeated>false</IsRepeated>
+									<InitialGap>0.0</InitialGap>
+									<Gap>0.0</Gap>
+									<GeneralizeLine>false</GeneralizeLine>
+                            </LinePlacement>
+                        </LabelPlacement>
+          </TextSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>

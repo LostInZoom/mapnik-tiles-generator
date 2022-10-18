@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc">
+    <NamedLayer>
+        <Name>nature_du_sol_25</Name>
+        <UserStyle>
+            <Name>Style créé pour le layer nature_du_sol_25</Name>
+            <IsDefault>false</IsDefault>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Fond de cuvette humide</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Fond de cuvette humide</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <GraphicFill>
+									<Graphic>
+									    <opacity>1.0</opacity>
+									    <Size>74.0</Size>
+									    <Rotation>
+									        <Literal>0</Literal>
+									    </Rotation>
+									    <ExternalGraphic>
+									        <href>/symbols/scan_express_25/Sable_humide.png</href>
+									        <Format>png</Format>
+									    </ExternalGraphic>
+									</Graphic>
+                            </GraphicFill>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Graviers ou galets humides</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Graviers ou galets humides</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <GraphicFill>
+										<Graphic>
+										    <opacity>1.0</opacity>
+										    <Size>70.0</Size>
+										    <Rotation>
+										        <Literal>0</Literal>
+										    </Rotation>
+										    <ExternalGraphic>
+										        <href>/symbols/scan_express_25/Gravier.png</href>
+										        <Format>png</Format>
+										    </ExternalGraphic>
+										</Graphic>
+                            </GraphicFill>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Graviers ou galets secs</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Graviers ou galets secs</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <GraphicFill>
+								<Graphic>
+								    <opacity>1.0</opacity>
+								    <Size>70.0</Size>
+								    <Rotation>
+								        <Literal>0</Literal>
+								    </Rotation>
+								    <ExternalGraphic>
+								        <href>/symbols/scan_express_25/Graviersec.png</href>
+								        <Format>png</Format>
+								    </ExternalGraphic>
+								</Graphic>
+                            </GraphicFill>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Rocher en zone inondable</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Rocher en zone inondable</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <GraphicFill>
+										<Graphic>
+										    <opacity>1.0</opacity>
+										    <Size>70.0</Size>
+										    <Rotation>
+										        <Literal>0</Literal>
+										    </Rotation>
+										    <ExternalGraphic>
+										        <href>/symbols/scan_express_25/Rocherhydro.png</href>
+										        <Format>png</Format>
+										    </ExternalGraphic>
+										</Graphic>
+                            </GraphicFill>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Sable sec</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Sable sec</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <GraphicFill>
+									<Graphic>
+									    <opacity>1.0</opacity>
+									    <Size>74.0</Size>
+									    <Rotation>
+									        <Literal>0</Literal>
+									    </Rotation>
+									    <ExternalGraphic>
+									        <href>/symbols/scan_express_25/Sable.png</href>
+									        <Format>png</Format>
+									    </ExternalGraphic>
+									</Graphic>
+                            </GraphicFill>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>Sable humide et vase</Name>
+                    <Filter>
+                        <PropertyIsEqualTo matchCase="true">
+                            <PropertyName>symbolisat</PropertyName>
+                            <Literal>Sable humide et vase</Literal>
+                        </PropertyIsEqualTo>
+                    </Filter>
+                    <MinScaleDenominator>0.0</MinScaleDenominator>
+                    <MaxScaleDenominator>34000.0</MaxScaleDenominator>
+                    <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                        <GeometryPropertyName>geom</GeometryPropertyName>
+                        <Fill>
+                            <GraphicFill>
+									<Graphic>
+									    <opacity>1.0</opacity>
+									    <Size>74.0</Size>
+									    <Rotation>
+									        <Literal>0</Literal>
+									    </Rotation>
+									    <ExternalGraphic>
+									        <href>/symbols/scan_express_25/Sable_humide.png</href>
+									        <Format>png</Format>
+									    </ExternalGraphic>
+									</Graphic>
+                            </GraphicFill>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

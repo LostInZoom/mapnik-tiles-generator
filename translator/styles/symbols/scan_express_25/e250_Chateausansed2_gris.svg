@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="69px" height="45px" viewBox="-0.039 -0.789 69 45" enable-background="new -0.039 -0.789 69 45"
+	 xml:space="preserve">
+<defs>
+</defs>
+<rect x="11.418" y="10.545" fill="none" stroke="#646464" stroke-width="5.6695" width="45.354" height="22.678"/>
+<line fill="#646464" stroke="#646464" stroke-width="8.504" x1="65.458" y1="3.257" x2="56.773" y2="10.545"/>
+<line fill="#646464" stroke="#646464" stroke-width="8.504" x1="2.733" y1="3.257" x2="11.418" y2="10.545"/>
+<line fill="#646464" stroke="#646464" stroke-width="8.504" x1="65.458" y1="40.511" x2="56.773" y2="33.223"/>
+<line fill="#646464" stroke="#646464" stroke-width="8.504" x1="2.733" y1="40.511" x2="11.418" y2="33.223"/>
+</svg>

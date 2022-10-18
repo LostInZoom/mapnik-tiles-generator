@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="9.3800001"
+   height="9.4099998"
+   viewBox="0 0 9.3800002 9.4099998"
+   xml:space="preserve"
+   inkscape:version="0.46"
+   sodipodi:docname="Curiosit.svg"
+   sodipodi:version="0.32"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"><metadata
+   id="metadata3286"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs3284"><inkscape:perspective
+   sodipodi:type="inkscape:persp3d"
+   inkscape:vp_x="0 : 4.7049999 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_z="9.3800001 : 4.7049999 : 1"
+   inkscape:persp3d-origin="4.6900001 : 3.1366666 : 1"
+   id="perspective18" />
+	
+
+		<defs
+   id="defs3266">
+			<polyline
+   id="SVGID_1_"
+   points="0,0 0,8.62 0,17.23 0,25.85 0,34.47 0,43.09 0,51.699 0,60.32 0,68.939 0,77.561 0,86.17      0,94.791 8.8,94.791 17.61,94.791 26.41,94.791 35.21,94.791 44.01,94.791 52.82,94.791 61.62,94.791 70.42,94.791 79.23,94.791      88.03,94.791 96.83,94.791 96.83,86.17 96.83,77.561 96.83,68.939 96.83,60.32 96.83,51.699 96.83,43.09 96.83,34.47      96.83,25.85 96.83,17.23 96.83,8.62 96.83,0 88.03,0 79.23,0 70.42,0 61.62,0 52.82,0 44.01,0 35.21,0 26.41,0 17.61,0 8.8,0      0,0    " />
+		</defs>
+		<defs
+   id="defs3269">
+			<rect
+   id="SVGID_2_"
+   width="96.959999"
+   height="94.560997"
+   x="0"
+   y="0" />
+		</defs>
+		<clipPath
+   id="SVGID_3_">
+			<use
+   xlink:href="#SVGID_1_"
+   style="overflow:visible"
+   id="use3273"
+   x="0"
+   y="0"
+   width="96.959999"
+   height="94.791" />
+		</clipPath>
+		<clipPath
+   id="SVGID_4_">
+			<use
+   xlink:href="#SVGID_2_"
+   style="overflow:visible"
+   id="use3276"
+   x="0"
+   y="0"
+   width="96.959999"
+   height="94.791" />
+		</clipPath>
+		
+		
+			
+	</defs><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1280"
+   inkscape:window-height="998"
+   id="namedview3282"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="33.306808"
+   inkscape:cx="0.48564875"
+   inkscape:cy="3.2062563"
+   inkscape:window-x="1276"
+   inkscape:window-y="-4"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<path
+   style="fill:#AD4E81;fill-opacity:1"
+   d="M 48.38,39.26 L 47.21,35.72 L 46.94,36.53 L 46.04,39.26 L 42.52,39.33 L 45.33,41.57 L 44.3,45.13 L 47.21,43.01 L 50.12,45.13 L 49.09,41.57 L 51.9,39.33 L 48.38,39.26 M 49.12,43.7 L 47.21,42.3 L 45.3,43.7 L 45.98,41.36 L 44.1,39.87 L 46.45,39.82 L 47.21,37.52 L 47.97,39.82 L 50.32,39.87 L 48.44,41.36 L 49.12,43.7 L 49.12,43.7 L 49.12,43.7 z"
+   id="path3278"
+   clip-path="url(#SVGID_4_)"
+   inkscape:connector-curvature="0"
+   transform="translate(-42.52,-35.720001)"
+   sodipodi:nodetypes="ccccccccccccccccccccccccc" />
+</svg>
