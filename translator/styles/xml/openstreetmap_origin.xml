@@ -32,7 +32,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">localhost</Parameter>
             <Parameter name="port">5432</Parameter>
-            <Parameter name="dbname">bretagne_st_jean</Parameter>
+            <Parameter name="dbname">calac</Parameter>
             <Parameter name="user">postgres</Parameter>
             <Parameter name="password">postgres</Parameter>
             <Parameter name="table">nature_du_sol_25</Parameter>
@@ -74,7 +74,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">localhost</Parameter>
             <Parameter name="port">5432</Parameter>
-            <Parameter name="dbname">bretagne_st_jean</Parameter>
+            <Parameter name="dbname">calac</Parameter>
             <Parameter name="user">postgres</Parameter>
             <Parameter name="password">postgres</Parameter>
             <Parameter name="table">surface_d_eau_25</Parameter>
@@ -131,7 +131,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">localhost</Parameter>
             <Parameter name="port">5432</Parameter>
-            <Parameter name="dbname">bretagne_st_jean</Parameter>
+            <Parameter name="dbname">calac</Parameter>
             <Parameter name="user">postgres</Parameter>
             <Parameter name="password">postgres</Parameter>
             <Parameter name="table">troncon_cours_d_eau_25</Parameter>
@@ -201,7 +201,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">localhost</Parameter>
             <Parameter name="port">5432</Parameter>
-            <Parameter name="dbname">bretagne_st_jean</Parameter>
+            <Parameter name="dbname">calac</Parameter>
             <Parameter name="user">postgres</Parameter>
             <Parameter name="password">postgres</Parameter>
             <Parameter name="table">terrain_de_sport_25</Parameter>
@@ -229,7 +229,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">localhost</Parameter>
             <Parameter name="port">5432</Parameter>
-            <Parameter name="dbname">bretagne_st_jean</Parameter>
+            <Parameter name="dbname">calac</Parameter>
             <Parameter name="user">postgres</Parameter>
             <Parameter name="password">postgres</Parameter>
             <Parameter name="table">batiment_quelconque_25</Parameter>
@@ -299,7 +299,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">localhost</Parameter>
             <Parameter name="port">5432</Parameter>
-            <Parameter name="dbname">bretagne_st_jean</Parameter>
+            <Parameter name="dbname">calac</Parameter>
             <Parameter name="user">postgres</Parameter>
             <Parameter name="password">postgres</Parameter>
             <Parameter name="table">batiment_religieux_surf_25</Parameter>
@@ -323,7 +323,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">localhost</Parameter>
             <Parameter name="port">5432</Parameter>
-            <Parameter name="dbname">bretagne_st_jean</Parameter>
+            <Parameter name="dbname">calac</Parameter>
             <Parameter name="user">postgres</Parameter>
             <Parameter name="password">postgres</Parameter>
             <Parameter name="table">troncon_voie_ferree_25</Parameter>
@@ -553,7 +553,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">localhost</Parameter>
             <Parameter name="port">5432</Parameter>
-            <Parameter name="dbname">bretagne_st_jean</Parameter>
+            <Parameter name="dbname">calac</Parameter>
             <Parameter name="user">postgres</Parameter>
             <Parameter name="password">postgres</Parameter>
             <Parameter name="table">troncon_route_25</Parameter>
@@ -783,7 +783,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">localhost</Parameter>
             <Parameter name="port">5432</Parameter>
-            <Parameter name="dbname">bretagne_st_jean</Parameter>
+            <Parameter name="dbname">calac</Parameter>
             <Parameter name="user">postgres</Parameter>
             <Parameter name="password">postgres</Parameter>
             <Parameter name="table">pont_route_25</Parameter>
@@ -793,50 +793,8 @@
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
-            <Filter>([symbolisation] = &quot;100&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Calibri Bold" size="22" fill="#7F7F7F" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
-        </Rule>
-        <Rule>
-            <MinScaleDenominator>0</MinScaleDenominator>
-            <MaxScaleDenominator>34000</MaxScaleDenominator>
-            <Filter>([symbolisation] = &quot;101&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Calibri Bold" size="21" fill="#7F7F7F" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
-        </Rule>
-        <Rule>
-            <MinScaleDenominator>0</MinScaleDenominator>
-            <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;102&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Calibri Bold" size="20" fill="#7F7F7F" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
-        </Rule>
-        <Rule>
-            <MinScaleDenominator>0</MinScaleDenominator>
-            <MaxScaleDenominator>34000</MaxScaleDenominator>
-            <Filter>([symbolisation] = &quot;110&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#7F7F7F" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
-        </Rule>
-        <Rule>
-            <MinScaleDenominator>0</MinScaleDenominator>
-            <MaxScaleDenominator>34000</MaxScaleDenominator>
-            <Filter>([symbolisation] = &quot;111&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#7F7F7F" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
-        </Rule>
-        <Rule>
-            <MinScaleDenominator>0</MinScaleDenominator>
-            <MaxScaleDenominator>34000</MaxScaleDenominator>
-            <Filter>([symbolisation] = &quot;112&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#7F7F7F" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
-        </Rule>
-        <Rule>
-            <MinScaleDenominator>0</MinScaleDenominator>
-            <MaxScaleDenominator>34000</MaxScaleDenominator>
-            <Filter>([symbolisation] = &quot;113&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#7F7F7F" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
-        </Rule>
-        <Rule>
-            <MinScaleDenominator>0</MinScaleDenominator>
-            <MaxScaleDenominator>34000</MaxScaleDenominator>
-            <Filter>([symbolisation] = &quot;114&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#7F7F7F" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Calibri Bold" size="22" fill="#7F7F7F" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
@@ -856,13 +814,6 @@
             <Filter>([symbolisation] = &quot;NUM_AUTOROUTE&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
             <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Regular" size="12" fill="white" halo-fill="#BA7B7E" halo-radius="2">[ref_ecriture]</TextSymbolizer>
         </Rule>
-
-        <Rule>
-            <MinScaleDenominator>0</MinScaleDenominator>
-            <MaxScaleDenominator>34000</MaxScaleDenominator>
-            <Filter>([symbolisation] = &quot;COTE&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="10" fill="#997d54">[ref_ecriture]</TextSymbolizer>
-        </Rule>
     </Style>
     <Layer name="toponyme_droit_25" srs="+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs">
         <StyleName>toponyme_droit_25</StyleName>
@@ -870,7 +821,7 @@
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">localhost</Parameter>
             <Parameter name="port">5432</Parameter>
-            <Parameter name="dbname">bretagne_st_jean</Parameter>
+            <Parameter name="dbname">calac</Parameter>
             <Parameter name="user">postgres</Parameter>
             <Parameter name="password">postgres</Parameter>
             <Parameter name="table">toponyme_droit_25</Parameter>

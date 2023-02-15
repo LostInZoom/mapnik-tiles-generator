@@ -7,12 +7,14 @@ import psycopg2 as pg
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 
+# Dummy tool to display available fonts
 fonts = 'fonts/'
 register_fonts(fonts)
 for face in FontEngine.face_names():
     # print(face)
     pass
 
+# Dict to link font name to their respective files
 FONTS_CORRELATION = {
     'DejaVu Sans Book': 'DejaVuSans.ttf',
     'DejaVu Sans Oblique': 'DejaVuSans-Oblique.ttf',
@@ -31,6 +33,11 @@ FONTS_CORRELATION = {
     'Calibri Bold': 'Calibri Bold.ttf',
     'Calibri Italic': 'Calibri Italic.ttf',
     'Calibri Bold Italic': 'Calibri Bold Italic.ttf',
+    'Harrington Regular': 'HARNGTON.TTF',
+    'Viner Hand ITC Regular': 'VINERITC.TTF',
+    'Stencil Regular': 'STENCIL.TTF',
+    'Kristen ITC Regular': 'ITCKRIST.TTF',
+    'Goudy Stout Regular': 'GOUDYSTO.TTF'
 }
 
 SYMBOLIZATION_RULES = {
@@ -182,6 +189,11 @@ SYMBOLIZATION_RULES = {
             'fill': 'white',
             'halo-fill': '#BA7B7E',
             'halo-radius': '2'
+        },
+        'elevation': {
+            'face-name': 'Formata Condensed',
+            'size': '14',
+            'fill': '#997d54',
         }
     }
 }
@@ -208,7 +220,7 @@ MARKER_SYMBOLIZER = {
 DB_PARAMETERS = """
     host=localhost
     port=5432
-    dbname=calac
+    dbname=embrun
     user=postgres
     password=postgres
 """
@@ -335,6 +347,7 @@ def generate_labels(dataset, tiles, scale, basemap):
         xmax = x + w
         ymin = y - h
         ymax = y + h
+        col = row = None
         for tile in tiles:
             x1 = tile['extent'][0]
             x2 = tile['extent'][2]
@@ -343,16 +356,17 @@ def generate_labels(dataset, tiles, scale, basemap):
             if x > x1 and x < x2 and y > y1 and y < y2:
                 col = tile['col']
                 row = tile['row']
-        polygons.append({
-            'name': name,
-            'col': col,
-            'row': row,
-            'xmin': xmin,
-            'ymin': ymin,
-            'xmax': xmax,
-            'ymax': ymax,
-            'geometry': Polygon([(xmin, ymin),(xmax, ymin),(xmax, ymax),(xmin, ymax),(xmin, ymin)])
-        })
+        if (col != None and row != None):
+            polygons.append({
+                'name': name,
+                'col': col,
+                'row': row,
+                'xmin': xmin,
+                'ymin': ymin,
+                'xmax': xmax,
+                'ymax': ymax,
+                'geometry': Polygon([(xmin, ymin),(xmax, ymin),(xmax, ymax),(xmin, ymax),(xmin, ymin)])
+            })
     return polygons
 
 def construct_labels_csv(tiles, polygons, params, basemap):
@@ -432,17 +446,18 @@ def intersection(labels, tiles):
             t_geom = tile['geometry']
             if l_geom.intersects(t_geom):
                 intersect = l_geom.intersection(t_geom)
-                coordinates = get_polygon_coordinates(intersect)
-                clip.append({
-                    'name': label['name'],
-                    'col': tile['col'],
-                    'row': tile['row'],
-                    'xmin': coordinates['xmin'],
-                    'ymin': coordinates['ymin'],
-                    'xmax': coordinates['xmax'],
-                    'ymax': coordinates['ymax'],
-                    'geometry': intersect
-                })
+                if intersect.geom_type == 'Polygon':
+                    coordinates = get_polygon_coordinates(intersect)
+                    clip.append({
+                        'name': label['name'],
+                        'col': tile['col'],
+                        'row': tile['row'],
+                        'xmin': coordinates['xmin'],
+                        'ymin': coordinates['ymin'],
+                        'xmax': coordinates['xmax'],
+                        'ymax': coordinates['ymax'],
+                        'geometry': intersect
+                    })
     return clip
 
 def clear_string_between_char(str, char1, char2):
@@ -518,6 +533,7 @@ def create_label_extent(toponyms, params, basemap):
     data = cur.fetchall()
     labels = generate_labels(data, params['tiles'], params['scale'], basemap)
     tiles = generate_tiles(params['tiles'], basemap)
-    clipped = intersection(labels, tiles)
-    construct_labels_geojson(clipped, basemap)
-    construct_labels_csv(tiles, clipped, params, basemap)
+    if (len(labels) > 0):
+        clipped = intersection(labels, tiles)
+        construct_labels_geojson(clipped, basemap)
+        construct_labels_csv(tiles, clipped, params, basemap)

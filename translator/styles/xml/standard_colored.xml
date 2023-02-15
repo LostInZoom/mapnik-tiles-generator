@@ -3578,85 +3578,434 @@
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;100&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Stencil Regular" size="22" fill="black" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="22" fill="#34A341" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;101&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Stencil Regular" size="22" fill="black" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="22" fill="#34A341" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;102&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Goudy Stout Regular" size="22" fill="black" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="22" fill="#0577FA" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;110&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Viner Hand ITC Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#0577FA" halo-fill="#7F0BB5" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;111&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Viner Hand ITC Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#0577FA" halo-fill="#7F0BB5" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;112&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Kristen ITC Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#7F0BB5" halo-fill="#88AD74" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;113&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Kristen ITC Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#7F0BB5" halo-fill="#88AD74" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;114&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Kristen ITC Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#7F0BB5" halo-fill="#88AD74" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;210&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#FF8C00" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;220&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#FF8C00" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;221&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#FF8C00" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;222&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#FFD000" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;230&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#FFD000" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
             <MaxScaleDenominator>34000</MaxScaleDenominator>
             <Filter>([symbolisation] = &quot;231&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
-            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington Regular" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#FFD000" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;232&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#FFD000" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;233&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#88AD74" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;234&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#88AD74" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;340&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#88AD74" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;341&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#88AD74" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;342&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#88AD74" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;350&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#88AD74" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;351&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#88AD74" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;352&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#88AD74" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;353&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#CF3E62" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;354&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#CF3E62" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;355&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#CF3E62" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;440&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#CF3E62" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;441&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;442&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;450&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;451&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;452&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;453&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;454&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;455&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;COURBE&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#997d54">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;COURBE_GLACIER&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#997d54">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;COURBE_ROCHER&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#997d54">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;COURBE_BATHY&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#997d54">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;COTE&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="#997d54">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;NUM_ROUTE&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Regular" size="12" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;NUM_AUTOROUTE&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Regular" size="12" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;DES&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed Italic" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;DET&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed Italic" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;DETB&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed Italic" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;TOT&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed Italic" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;TOTB&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed Italic" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;220_LD&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;221_LD&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;222_LD&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;230_LD&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;231_LD&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;232_LD&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;233_LD&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;234_LD&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;NOM_CABLE&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;DETBF&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed Italic" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;454&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Formata Condensed" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+    </Style><Style name="toponyme_droit_25">
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;100&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Stencil" size="22" fill="black" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;101&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Stencil" size="22" fill="black" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;102&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Goudy Stout" size="22" fill="black" halo-fill="white" halo-radius="2">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;110&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Viner ITC" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;111&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Viner ITC" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;112&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Kristen ITC" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;113&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Kristen ITC" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;114&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Kristen ITC" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;210&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;220&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;221&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;222&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;230&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
+        </Rule>
+        <Rule>
+            <MinScaleDenominator>0</MinScaleDenominator>
+            <MaxScaleDenominator>34000</MaxScaleDenominator>
+            <Filter>([symbolisation] = &quot;231&quot;) and ([placement_ok] = &quot;true&quot;)</Filter>
+            <TextSymbolizer placement="point" allow-overlap="true" label-position-tolerance="0" face-name="Harrington" size="14" fill="black" halo-fill="white" halo-radius="1.5">[ref_ecriture]</TextSymbolizer>
         </Rule>
         <Rule>
             <MinScaleDenominator>0</MinScaleDenominator>
